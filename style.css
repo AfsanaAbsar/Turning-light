@@ -1,5 +1,6 @@
 body{
-    margin-left: 500px;
+    margin:auto;
+    overflow-x: hidden;
 }
 img{
     height: 500px;
