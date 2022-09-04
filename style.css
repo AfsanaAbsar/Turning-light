@@ -1,17 +1,36 @@
-body{
-    margin:auto;
+body {
+    margin: auto;
     overflow-x: hidden;
 }
-img{
+
+.area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
     height: 500px;
 }
-button{
+
+button {
+    border: none;
     color: whitesmoke;
     background-color: rgb(72, 84, 95);
-    padding: 10px;
+    padding: 15px 20px;
+    text-transform: uppercase;
 }
-button:hover{
-    
+
+button:hover {
+
     background-color: rgb(19, 24, 29);
-    
+
+}
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
 }
